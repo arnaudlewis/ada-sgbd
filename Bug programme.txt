@@ -1,0 +1,17 @@
+SI VOUS TROUVEZ UN BUG NOTEZ LE ICI ON REGLERA LE PROBLEME D'ICI LA SOUTENANCE :D  
+=> RESOLU
+
+si y a pas d'attributs à suuprimer mais qu'on met "supprimer attributs" la questions "cb d'attributs à supprimer s'affiche en boucle"
+=> RESOLU
+
+meme probleme pour les tables et les données
+=> RESOLU
+
+si on vient de créer notre base (donc aucune table de créée), on ne peut pas aller dans la gestion des attributs (normal), mais on peut aller dans la gestion des données.
+Et donc, si on ajoute une nouvelle donnée, on a écrit "warning, base vide", mais on a quand même le message "Quelle table souhaitez vous remplir"
+=>RESOLU
+
+
+
+quand on veut supprimer un n-uplet dans une table qui est vide, on a pas d'erreurs "Table vide", ça nous réaffiche la table avec le menu
+=> RESOLU

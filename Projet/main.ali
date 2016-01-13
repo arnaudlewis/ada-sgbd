@@ -1,0 +1,104 @@
+V "GNAT Lib v2011"
+M P W=b
+P SS ZX
+R nnnnnnnnnnnnnnnnnnvnnvnnnvnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnvnnnnnnnvnnnnnnnnnnnnnn
+
+U main%b		main.adb		29eef88c NE OO SU
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W p_sgbd%s		p_sgbd.adb		p_sgbd.ali
+W simple_io%s		simple_io.ads		simple_io.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20110428140902 3ffc8e18
+D a-except.ads		20110428140900 4759ecee
+D a-finali.ads		20110428140900 b333d305
+D a-fihema.ads		20110428140900 1940728a
+D a-ioexce.ads		20110428140900 8b9de6cd
+D a-stream.ads		20110428140902 2ca4ee37
+D a-tags.ads		20110428140902 7b33f560
+D a-textio.ads		20110428140902 386df5d4
+D a-tiflio.ads		20110428140902 56fbda09
+D a-tiinio.ads		20110428140902 aa04e5d6
+D a-unccon.ads		20110428140902 f9eb8f06
+D interfac.ads		20110428140906 f77d8799
+D i-cstrea.ads		20110428140906 1bd72c32
+D main.adb		20120623000022 0183adc1
+D p_date.ads		20120619173056 99685386
+D p_sgbd.ads		20120622220146 78ffd6fe
+D simple_io.ads		20120430101308 1544a57a
+D system.ads		20110428140910 bc164b96
+D s-crtl.ads		20110428140906 ac77b159
+D s-exctab.ads		20110428140906 66e51330
+D s-ficobl.ads		20110428140906 443b9d66
+D s-finroo.ads		20110428140906 2dd85ce2
+D s-parame.ads		20110428140908 03aa3b01
+D s-pooglo.ads		20110428140908 542f33d0
+D s-secsta.ads		20110428140908 eea35a36
+D s-soflin.ads		20110428140908 607487c5
+D s-stache.ads		20110428140908 596fc1b4
+D s-stalib.ads		20110428140908 f78bcf95
+D s-stoele.ads		20110428140908 facd7d98
+D s-stoele.adb		20110428140908 afc5dc80
+D s-stopoo.ads		20110428140908 5c51faf9
+D s-traent.ads		20110428140908 5221ee41
+D s-unstyp.ads		20110428140908 6ae15c76
+D s-wchcon.ads		20110428140910 bfeb2e3d
+D text_io.ads		20110428140910 45d626c9
+X 8 a-textio.ads
+52P9*File_Type(369R9)
+223U14*Get_Immediate 14|45s21 56s33 78s36 103s39
+X 14 main.adb
+11U11*Main 11b11 142l5 142t9
+17p4 F{17|15P11}
+18e4 char{character} 45m35 45r35 46m22 46r22 48r18
+19r4 Base{16|54R12} 32m16 32r16 49r42 60m51 60r51 61m50 61r50 70r45 81r57
+. 82r53 94r22 95r25 108r78 109m56 109r56 110r61 126r38
+20e4 answer{character} 56m47 56r47 57m34 57r34 59r30 78m50 78r50 79m37 79r37
+. 80r33 103m53 103r53 104m40 104r40 107r36
+21i4 nb{integer}
+21i7 taille{integer}
+21i14 num{integer}
+21i18 j{integer}
+22p4 table_cible{16|46P12} 70m63 70r63 71r22 81m75 81r75 82m71 82r71 91m19
+. 93m28 108m43 108m96 108r96 110m79 110r79
+23a4 nom_fic{string} 32m21 32r21 126r43 128r37
+24i4 taille_fic{integer} 32m29 32r29 126r51 128r45
+25b4 sortir{boolean} 32m40 32r40 33r11
+26b4 close{boolean} 128m57 128r57 129r22
+X 16 p_sgbd.ads
+4K12*P_sgbd 14|8w16 9r15 16|183e14
+34R12*T_attribut 43e20
+35P12*Access_Attribut(34R12)
+45R12*T_Table 52e20
+46P12*Access_Table(45R12) 14|22r16
+50p13*Contenu_Table{35P12} 14|95r43
+54R12*T_Base 14|19r9 16|58e20
+57p13*Contenu_Base{46P12} 14|49r47 60m56 61m55 70r50 81r62 82r58 94r27 95r30
+. 108r83 109m61 110r66
+113U17*create_open 14|32s4
+116U17*save_base 14|126s28
+117U17*del_base 14|128s28
+151U17*Supprimer 14|61s40
+152U17*Supprimer 14|82s43
+153U17*Supprimer_donnees 14|110s43
+158U17*affiche_table 14|49s28
+159U17*affiche_attribut 14|70s28
+160U17*affiche_donnees 14|108s62
+165U17*edit_table 14|60s40
+166U17*edit_attribut 14|81s43
+167U17*edit_donnees 14|109s43
+181U17*MAJ_char 14|46s13 57s25 79s28 104s31
+X 17 simple_io.ads
+10K9*Simple_io 14|8w6 9r5 17|169e14
+15P11*File_type{8|52P9} 14|17r6
+64U13*put_line=65:50 14|38s13 39s13 40s13 41s13 42s13 43s13 44s13 52s25 53s25
+. 54s25 55s25 66s40 74s28 75s28 76s28 77s28 87s43 98s31 99s31 100s31 101s31
+. 102s31 115s46 119s35 122s32 135s31
+143U13*new_line=144:46 14|37s13 45s41 49s61 58s25 66s72 87s75 105s31 115s78
+. 119s25 122s22 124s19 135s65
+166X3*Data_error 14|63r49 84r52 112r52
+X 35 text_io.ads
+24K9*Text_IO=24:29 14|8w24 45r13 56r25 78r28 103r31
+
